@@ -28,13 +28,22 @@ nav{
 
 #nav-links li {
     float: left;
-    margin-right: 1%;
+    margin-top: 5px;
+    margin-right: 20px;
     
 }
 
 #nav-links a{
     text-decoration: none;
-    color: #003087;
+    color: #030303;
+}
+
+#nav-links a:hover{
+    border-bottom: 2px solid #030303;
+}
+
+.active{
+    border: 2px solid #003087;
 }
 /* Header style */
 
@@ -134,4 +143,24 @@ h1 span {
     background: url(../images/ps5.jpeg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* Social media links */
+footer{
+    height: 15px;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links li{
+    display: inline;
+}
+
+.social-links i {
+    font-size: 180%;
+    margin-top: 10%;
+    padding: 2%;
+    color: #003087;
 }
