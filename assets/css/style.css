@@ -89,7 +89,7 @@ h1 span {
     width: 200px;
     padding: 80px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-radius: 50%;
     border-color: #030303;
     margin: auto 0;
@@ -99,6 +99,10 @@ h1 span {
     display:inline-block;
     width: 30%;
     padding-top: 10%;
+}
+
+.link-blocks a:hover{
+    border-color: #003087;
 }
 
 #ps{
