@@ -45,6 +45,12 @@ nav{
 .active{
     border: 2px solid #003087;
 }
+
+nav i{
+    font-size: 250%;
+    float:right;
+    padding-right: 18%;
+}
 /* Header style */
 
 header{
@@ -80,8 +86,10 @@ h1 span {
 
 #instruction{
     text-align: center;
+    font-size: 200%;
     margin-top: 6%;
     padding: 0;
+    color: #003087;
 }
 
 .top-row{
