@@ -93,12 +93,12 @@ h1 span {
 }
 
 .top-row{
-    margin-left: 22%;
+    margin-left: 20%;
 }
 
 .bottom-row{
     margin-left: 35%;
-    padding-top: 5%;
+    padding-top: 7%;
 }
 
 .link-blocks a{
@@ -171,4 +171,13 @@ footer{
     margin-top: 10%;
     padding: 2%;
     color: #003087;
+}
+
+/* Tablet size screen 800
+
+/* PS1 page */
+
+#ps1-page{
+    background: url(../images/ps1-page-background.jpeg) no-repeat;
+    background-size: cover;
 }
