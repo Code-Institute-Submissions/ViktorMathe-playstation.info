@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Lato:wght@300&family=Oswald:wght@200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-body{
-    background:url(../images/main-imgop0.5.jpg) no-repeat;
+body {
+    background: url(../images/main-imgop0.5.jpg) no-repeat;
     background-size: cover;
     background-color: #EBEEFA;
     font-family: Lato, sans-serif;
@@ -15,7 +15,7 @@ body{
 
 
 /* Navigation buttons style */
-nav{
+nav {
     display: block;
     letter-spacing: 2px;
     top: 10px;
@@ -31,61 +31,62 @@ nav{
     float: left;
     margin-top: 5px;
     margin-right: 20px;
-    
+
 }
 
-#nav-links a{
+#nav-links a {
     text-decoration: none;
     color: #030303;
 }
 
-#nav-links a:hover{
+#nav-links a:hover {
     border-bottom: 2px solid #030303;
 }
 
-.active{
+.active {
     border: 2px solid #003087;
 }
 
-nav i{
+nav i {
     font-size: 280%;
-    float:right;
+    float: right;
     padding-right: 18%;
 }
+
 /* Header style */
 
-header{
+header {
     background-color: #003087;
     width: 100%;
     height: 100px;
     padding: 0;
     margin: auto;
     position: absolute;
-    top:5%;
+    top: 5%;
     opacity: 0.9;
 }
 
-h1{
+h1 {
     color: #ffffff;
     font-size: 160%;
     text-align: center;
     margin-top: 1%;
-    }
+}
 
 h1 span {
-    color:inherit;
+    color: inherit;
     font-size: 220%;
     font-family: Cabin, sans-serif;
 }
 
 /* Main section */
-#icons-section{
+#icons-section {
     height: 100%;
     width: 100%;
     margin-top: 15%;
 }
 
-#instruction{
+#instruction {
     text-align: center;
     font-size: 200%;
     margin-top: 6%;
@@ -93,16 +94,16 @@ h1 span {
     color: #003087;
 }
 
-.top-row{
+.top-row {
     margin-left: 20%;
 }
 
-.bottom-row{
+.bottom-row {
     margin-left: 35%;
     padding-top: 7%;
 }
 
-.link-blocks a{
+.link-blocks a {
     height: 200px;
     width: 200px;
     padding: 80px;
@@ -113,57 +114,57 @@ h1 span {
     margin: auto 0;
 }
 
-.link-blocks li{
-    display:inline-block;
+.link-blocks li {
+    display: inline-block;
     width: 30%;
     padding-top: 10%;
 }
 
-.link-blocks a:hover{
+.link-blocks a:hover {
     border-color: #003087;
 }
 
-#ps{
+#ps {
     background: url(../images/ps1.jpeg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
-    margin:auto 0;
+    margin: auto 0;
 }
 
-#ps2{
+#ps2 {
     background: url(../images/ps2.jpeg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#ps3{
+#ps3 {
     background: url(../images/ps3.jpeg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#ps4{
+#ps4 {
     background: url(../images/ps4.jpeg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#ps5{
+#ps5 {
     background: url(../images/ps5.jpeg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 /* Social media links */
-footer{
+footer {
     height: 15px;
 }
 
-.social-links{
+.social-links {
     text-align: center;
 }
 
-.social-links li{
+.social-links li {
     display: inline;
 }
 
@@ -176,25 +177,25 @@ footer{
 
 /* Big tablet size screen 1180px or smaller */
 
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 1180px) {
 
     nav {
         letter-spacing: 1px;
     }
 
-    #nav-links{
+    #nav-links {
         line-height: 15px;
     }
 
-    #nav-links li{
+    #nav-links li {
         margin-right: 15px;
     }
 
-    nav i{
+    nav i {
         font-size: 250%;
     }
 
-    header{
+    header {
         height: 70px;
     }
 
@@ -202,11 +203,11 @@ footer{
         font-size: 120%;
     }
 
-    h1 span{
+    h1 span {
         font-size: 170%;
     }
 
-    .link-blocks a{
+    .link-blocks a {
         padding: 70px;
     }
 
@@ -222,22 +223,22 @@ footer{
 
 /* Tablet size screen 950px or smaller */
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
 
-    #nav-links{
+    #nav-links {
         line-height: 10px;
     }
 
-    #nav-links li{
+    #nav-links li {
         margin-right: 10px;
     }
 
-    nav i{
+    nav i {
         font-size: 200%;
         padding-right: 20%;
     }
 
-    header{
+    header {
         height: 50px;
         top: 4%;
     }
@@ -246,11 +247,11 @@ footer{
         font-size: 100%;
     }
 
-    h1 span{
+    h1 span {
         font-size: 150%;
     }
 
-    .link-blocks a{
+    .link-blocks a {
         padding: 50px;
     }
 
@@ -262,47 +263,51 @@ footer{
         font-size: 120%;
     }
 }
- 
+
 /* Small size screen 800px or smaller */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
-    nav li{
-       margin-top: 0;
+    nav li {
+        margin-top: 0;
     }
 
-    nav i{
+    nav i {
         padding-right: 5px;
     }
 
     header {
         top: 8%;
     }
-    
 
-    #instruction{
-        margin-top: 30%;
-        margin-left: 18%;
-        background-color: #EBEEFA;
-        opacity:0.9;
-        height: fit-content;
-        width: fit-content;
-        font-size: larger;
+
+    #instruction {
+        font-weight: 900;
+        margin-top: 35%;
+        border-bottom: 1px solid #003087;
+        margin-left: 22.5%;
+        margin-right: 22.5%;
+        text-align: center;
+
     }
 
-    #flex-column li{
+    #flex-column li {
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
         height: fit-content;
         width: fit-content;
     }
-    
-    .bottom-row{
-        margin-left: 85px;
+
+    .top-row {
+        margin-left: 45px;
     }
 
-    #ps1-img{
+    .bottom-row {
+        margin-left: 45px;
+    }
+
+    #ps1-img {
         margin-top: 80px;
     }
 }
@@ -310,21 +315,38 @@ footer{
 
 /* PS1 page */
 
-#ps1-page{
-    background: #EBEEFA;
-}
-
 #ps1-page nav i {
     padding-right: 1%;
 }
 
-#ps1-page{
+#ps1-page {
     background: url(../images/ps1-background-op0.5.jpg) no-repeat;
     background-size: cover;
     margin: auto 0;
     padding: 0;
 }
 
-.ps-1-header{
-    position: absolute;
+#ps-content-box{
+    height: 780px;
+    width: 300px;
+    margin: 13%;
+    padding: 1%;
+    text-align: left;
+    color: #030303;
+    background-color: rgba(109, 109, 110, 0.8);
+
+}
+
+#ps-content-box h2{
+    font-size: x-large;
+    color: #003087;
+}
+
+#ps-content-box p{
+    font-size: 120%;
+}
+
+p span{
+    color: #EBEEFA;
+    border-bottom: 1px solid #030303;
 }
