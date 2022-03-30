@@ -326,9 +326,9 @@ footer {
     padding: 0;
 }
 
-#ps-content-box{
-    height: 780px;
-    width: 300px;
+#ps-content-box {
+    height: 520px;
+    width: 500px;
     margin: 13%;
     padding: 1%;
     text-align: left;
@@ -337,16 +337,21 @@ footer {
 
 }
 
-#ps-content-box h2{
+#ps-content-box h2 {
     font-size: x-large;
     color: #003087;
 }
 
-#ps-content-box p{
+#ps-content-box p {
     font-size: 120%;
 }
 
-p span{
+p span {
     color: #EBEEFA;
     border-bottom: 1px solid #030303;
+}
+
+.embed-video {
+    margin-top: -750px;
+    margin-left: 50%;
 }
