@@ -322,13 +322,11 @@ footer {
 #ps1-page {
     background: url(../images/ps1-background-op0.5.jpg) no-repeat;
     background-size: cover;
-    margin: auto 0;
-    padding: 0;
 }
 
 #ps-content-box {
-    height: 450px;
-    width: 320px;
+    height: 650px;
+    width: 400px;
     margin: 13%;
     padding: 1%;
     text-align: left;
@@ -354,6 +352,50 @@ p span {
 .embed-video {
     margin-top: -750px;
     margin-left: 50%;
+}
+
+/* PlayStation 2 page */
+
+#ps2-page {
+    background: url(../images/ps2-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+#ps2-page nav i{
+    padding-right: 1%;
+}
+
+/* PlayStation 3 page */
+
+#ps3-page {
+    background: url(../images/ps3-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+#ps3-page nav i {
+    padding-right: 1%;
+}
+
+/* PlayStation 4 page */
+
+#ps4-page{
+    background: url(../images/ps4-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+#ps4-page nav i{
+    padding-right: 1%;
+}
+
+/* PlayStation 5 page */
+
+#ps5-page{
+    background: url(../images/ps5-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+#ps5-page nav i{
+    padding-right: 1%;
 }
 
 /* Sign up page */
