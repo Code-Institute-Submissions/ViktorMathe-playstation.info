@@ -16,7 +16,7 @@
     <nav>
         <ul id="nav-links">
             <li>
-                <a href="index.html" alt="Home page">Home</a>
+                <a href="index.html">Home</a>
             </li>
             <li>
                 <a href="playstation1.html">PS</a>
@@ -43,10 +43,42 @@
     <header>
         <h1>Evolution of the <span>PlayStation</span></h1>
     </header>
-    <section id="signup-container">
-        <div id="signup-box">
+    <section class="signup-container">
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Sign Up for the latest information!</h2>
+            <label>First Name:</label>
+            <input type="text" name="fname" class="signup-box" required>
 
-        </div>
+            <label>Last Name:</label>
+            <input type="text" name="lname" class="signup-box" required>
+
+            <label>E-mail Address:</label>
+            <input type="email" name="email" class="signup-box" required>
+
+            <h3>Choose which PlayStation is your favourite:</h3>
+            <div>
+                <input type="radio" id="ps1" value="ps1" name="ps_console">
+                <label for="ps1">PlayStation</label>
+            </div>
+            <div>
+                <input type="radio" id="ps2" value="ps2" name="ps_console">
+                <label for="ps2">PlayStation 2</label>
+            </div>
+            <div>
+                <input type="radio" id="ps3" value="ps3" name="ps_console">
+                <label for="ps3">PlayStation 3</label>
+            </div>
+            <div>
+                <input type="radio" id="ps4" value="ps4" name="ps_console">
+                <label for="ps4">PlayStation 4</label>
+            </div>
+            <div>
+                <input type="radio" id="ps5" value="ps5" name="ps_console" required>
+                <label for="ps5">PlayStation 5</label>
+            </div>
+            <input type="submit" value="Sign Up!" class="form-buttons">
+            <input type="reset" value="Clear Form" class="form-buttons">
+        </form>
     </section>
     <hr>
     <footer>

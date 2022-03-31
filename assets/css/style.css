@@ -31,6 +31,7 @@ nav {
     float: left;
     margin-top: 5px;
     margin-right: 20px;
+    padding-left: 1%;
 
 }
 
@@ -50,7 +51,7 @@ nav {
 nav i {
     font-size: 280%;
     float: right;
-    padding-right: 18%;
+    padding-right: 1%;
 }
 
 /* Header style */
@@ -174,6 +175,116 @@ footer {
     padding: 2%;
     color: #003087;
 }
+
+/* PS1 page */
+
+#ps1-page {
+    background: url(../images/ps1-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+#ps-content-box {
+    height: fit-content;
+    width: 400px;
+    margin: 13%;
+    padding: 1%;
+    text-align: left;
+    color: #030303;
+    background-color: rgba(109, 109, 110, 0.8);
+
+}
+
+#ps-content-box h2 {
+    font-size: x-large;
+    color: #003087;
+}
+
+#ps-content-box p {
+    font-size: 120%;
+}
+
+p span {
+    color: #EBEEFA;
+    border-bottom: 1px solid #030303;
+}
+
+.embed-video {
+    margin-top: -750px;
+    margin-left: 50%;
+}
+
+/* PlayStation 2 page */
+
+#ps2-page {
+    background: url(../images/ps2-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* PlayStation 3 page */
+
+#ps3-page {
+    background: url(../images/ps3-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* PlayStation 4 page */
+
+#ps4-page {
+    background: url(../images/ps4-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* PlayStation 5 page */
+
+#ps5-page {
+    background: url(../images/ps5-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* Sign up page */
+
+#signup-page {
+    background: url(../images/signup-background-op0.5.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.signup-container {
+    height: 450px;
+    width: 500px;
+    background-color: rgba(109, 109, 110, 0.8);
+    margin-top: 12%;
+    margin-left: 35%;
+    padding: 2%;
+}
+
+.signup-container label {
+    color: #003087;
+}
+
+.signup-container h2,h3{
+    padding-bottom: 3%;
+    color: #003087;
+}
+
+.signup-box {
+    width: 100%;
+    margin: 10px 0 15px 0;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    padding: 1.5%;
+    display: block;
+    color: #EBEEFA;
+    background-color: #003087;
+}
+
+input[type="radio"]{
+    -webkit-appearance: radio;
+}
+
 
 /* Big tablet size screen 1180px or smaller */
 
@@ -310,109 +421,4 @@ footer {
     #ps1-img {
         margin-top: 80px;
     }
-}
-
-
-/* PS1 page */
-
-#ps1-page nav i {
-    padding-right: 1%;
-}
-
-#ps1-page {
-    background: url(../images/ps1-background-op0.5.jpg) no-repeat;
-    background-size: cover;
-}
-
-#ps-content-box {
-    height: 650px;
-    width: 400px;
-    margin: 13%;
-    padding: 1%;
-    text-align: left;
-    color: #030303;
-    background-color: rgba(109, 109, 110, 0.8);
-
-}
-
-#ps-content-box h2 {
-    font-size: x-large;
-    color: #003087;
-}
-
-#ps-content-box p {
-    font-size: 120%;
-}
-
-p span {
-    color: #EBEEFA;
-    border-bottom: 1px solid #030303;
-}
-
-.embed-video {
-    margin-top: -750px;
-    margin-left: 50%;
-}
-
-/* PlayStation 2 page */
-
-#ps2-page {
-    background: url(../images/ps2-background-op0.5.jpg) no-repeat;
-    background-size: cover;
-}
-
-#ps2-page nav i{
-    padding-right: 1%;
-}
-
-/* PlayStation 3 page */
-
-#ps3-page {
-    background: url(../images/ps3-background-op0.5.jpg) no-repeat;
-    background-size: cover;
-}
-
-#ps3-page nav i {
-    padding-right: 1%;
-}
-
-/* PlayStation 4 page */
-
-#ps4-page{
-    background: url(../images/ps4-background-op0.5.jpg) no-repeat;
-    background-size: cover;
-}
-
-#ps4-page nav i{
-    padding-right: 1%;
-}
-
-/* PlayStation 5 page */
-
-#ps5-page{
-    background: url(../images/ps5-background-op0.5.jpg) no-repeat;
-    background-size: cover;
-}
-
-#ps5-page nav i{
-    padding-right: 1%;
-}
-
-/* Sign up page */
-
-#signup-page {
-    background: url(../images/signup-background-op0.5.jpg) no-repeat;
-    background-size: cover;
-}
-
-#signup-page nav i {
-    padding-right: 1%;
-}
-
-#signup-container {
-    height: 600px;
-    width: 500px;
-    background-color: rgba(109, 109, 110, 0.8);
-    margin-top: 12%;
-    margin-left: 35%;
 }
