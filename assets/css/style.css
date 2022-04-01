@@ -16,7 +16,6 @@ body {
 
 /* Navigation buttons style */
 nav {
-    display: block;
     letter-spacing: 2px;
     top: 10px;
 }
@@ -127,32 +126,27 @@ h1 span {
 
 #ps {
     background: url(../images/ps1.jpeg) no-repeat center center;
-    height: 100%;
     border-radius: 50%;
     margin: auto 0;
 }
 
 #ps2 {
     background: url(../images/ps2.jpeg) no-repeat center center;
-    height: 100%;
     border-radius: 50%;
 }
 
 #ps3 {
     background: url(../images/ps3.jpeg) no-repeat center center;
-    height: 100%;
     border-radius: 50%;
 }
 
 #ps4 {
     background: url(../images/ps4.jpeg) no-repeat center center;
-    height: 100%;
     border-radius: 50%;
 }
 
 #ps5 {
     background: url(../images/ps5.jpeg) no-repeat center center;
-    height: 100%;
     border-radius: 50%;
 }
 
@@ -244,6 +238,11 @@ p span {
 
 /* Sign up page */
 
+input[type="radio"] {
+    -webkit-appearance: radio;
+}
+
+
 #signup-page {
     background: url(../images/signup-background-op0.5.jpg) no-repeat;
     background-size: cover;
@@ -263,7 +262,8 @@ p span {
     color: #003087;
 }
 
-.signup-container h2,h3{
+.signup-container h2,
+h3 {
     padding-bottom: 3%;
     color: #003087;
 }
@@ -279,10 +279,6 @@ p span {
     display: block;
     color: #EBEEFA;
     background-color: #003087;
-}
-
-input[type="radio"]{
-    -webkit-appearance: radio;
 }
 
 
@@ -326,8 +322,22 @@ input[type="radio"]{
         font-size: 110%;
     }
 
+    .social-links {
+        display: inline-flex;
+        float: left;
+        margin-left: 40%;
+    }
+
+    .social-links li {
+        padding-left: 20px;
+    }
+
     .social-links i {
         font-size: 140%;
+    }
+
+    .signup-container {
+        margin-left: 25%;
     }
 }
 
@@ -335,6 +345,10 @@ input[type="radio"]{
 /* Tablet size screen 950px or smaller */
 
 @media screen and (max-width: 950px) {
+    body{
+        background-size: auto;
+    }
+
 
     #nav-links {
         line-height: 10px;
@@ -345,13 +359,13 @@ input[type="radio"]{
     }
 
     nav i {
-        font-size: 200%;
-        padding-right: 20%;
+        font-size: 120%;
+        padding-right: 1%;
     }
 
     header {
         height: 50px;
-        top: 4%;
+        margin-top: -40px;
     }
 
     h1 {
@@ -370,8 +384,18 @@ input[type="radio"]{
         font-size: 90%;
     }
 
+
+    .social-links li {
+        padding-left: 20px;
+    }
+
     .social-links i {
         font-size: 120%;
+    }
+
+    .signup-container {
+        margin-top: -20x;
+        margin-left: 20%;
     }
 }
 
@@ -408,6 +432,11 @@ input[type="radio"]{
         flex-direction: column;
         height: fit-content;
         width: fit-content;
+    }
+
+    .link-blocks a {
+        margin-left: 35%;
+        padding: 0px;
     }
 
     .top-row {
