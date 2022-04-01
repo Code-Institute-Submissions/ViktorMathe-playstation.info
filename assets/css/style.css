@@ -4,13 +4,15 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: Lato, sans-serif;
 }
 
-body {
+/* Index page */
+
+#index-page {
     background: url(../images/main-imgop0.5.jpg) no-repeat;
     background-size: cover;
     background-color: #EBEEFA;
-    font-family: Lato, sans-serif;
 }
 
 
@@ -94,13 +96,9 @@ h1 span {
     color: #003087;
 }
 
-.top-row {
+.link-blocks{
     margin-left: 20%;
-}
-
-.bottom-row {
-    margin-left: 35%;
-    padding-top: 7%;
+    margin-top: -5%;
 }
 
 .link-blocks a {
@@ -117,35 +115,34 @@ h1 span {
 .link-blocks li {
     display: inline-block;
     width: 30%;
-    padding-top: 10%;
+    padding-top: 20%;
 }
 
 .link-blocks a:hover {
     border-color: #003087;
 }
 
-#ps {
+.ps {
     background: url(../images/ps1.jpeg) no-repeat center center;
     border-radius: 50%;
-    margin: auto 0;
 }
 
-#ps2 {
+.ps2 {
     background: url(../images/ps2.jpeg) no-repeat center center;
     border-radius: 50%;
 }
 
-#ps3 {
+.ps3 {
     background: url(../images/ps3.jpeg) no-repeat center center;
     border-radius: 50%;
 }
 
-#ps4 {
+.ps4 {
     background: url(../images/ps4.jpeg) no-repeat center center;
     border-radius: 50%;
 }
 
-#ps5 {
+.ps5 {
     background: url(../images/ps5.jpeg) no-repeat center center;
     border-radius: 50%;
 }
@@ -345,7 +342,7 @@ h3 {
 /* Tablet size screen 950px or smaller */
 
 @media screen and (max-width: 950px) {
-    body{
+    body {
         background-size: auto;
     }
 
@@ -428,23 +425,15 @@ h3 {
 
     #flex-column li {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-direction: column;
         height: fit-content;
         width: fit-content;
     }
 
-    .link-blocks a {
+    .link-blocks {
         margin-left: 35%;
-        padding: 0px;
-    }
-
-    .top-row {
-        margin-left: 45px;
-    }
-
-    .bottom-row {
-        margin-left: 45px;
+        padding-top: 30px;
     }
 
     #ps1-img {
