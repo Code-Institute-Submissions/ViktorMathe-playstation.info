@@ -7,6 +7,10 @@
     font-family: Lato, sans-serif;
 }
 
+iframe {
+    border: none;
+}
+
 /* Index page */
 
 #index-page {
@@ -96,7 +100,7 @@ h1 span {
     color: #003087;
 }
 
-.link-blocks{
+.link-blocks {
     margin-left: 20%;
     margin-top: -5%;
 }
@@ -149,7 +153,13 @@ h1 span {
 
 /* Social media links */
 footer {
-    height: 15px;
+    height: 80px;
+    background-color: #003087;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    margin-top: 20%;
+    padding: 0;
 }
 
 .social-links {
@@ -162,9 +172,8 @@ footer {
 
 .social-links i {
     font-size: 180%;
-    margin-top: 10%;
     padding: 2%;
-    color: #003087;
+    color: #EBEEFA;
 }
 
 /* PS1 page */
@@ -200,8 +209,9 @@ p span {
 }
 
 .embed-video {
-    margin-top: -750px;
+    margin-top: -50%;
     margin-left: 50%;
+    padding: 0;
 }
 
 /* PlayStation 2 page */
@@ -211,11 +221,21 @@ p span {
     background-size: cover;
 }
 
+.embed-video-ps2{
+    margin-top: -40%;
+    margin-left: 50%;
+}
+
 /* PlayStation 3 page */
 
 #ps3-page {
     background: url(../images/ps3-background-op0.5.jpg) no-repeat;
     background-size: cover;
+}
+
+.embed-video-ps3{
+    margin-top: -55%;
+    margin-left: 50%;
 }
 
 /* PlayStation 4 page */
@@ -232,6 +252,32 @@ p span {
     background: url(../images/ps5-background-op0.5.jpg) no-repeat;
     background-size: cover;
 }
+
+.embed-video-ps5{
+    margin-top: -50%;
+    margin-left: 50%;
+}
+
+#ps5-content-box {
+    height: 550px;
+    width: 400px;
+    overflow: scroll;
+    margin: 13%;
+    padding: 1%;
+    text-align: left;
+    color: #030303;
+    background-color: rgba(109, 109, 110, 0.8);
+}
+
+#ps5-content-box h2 {
+    font-size: x-large;
+    color: #003087;
+}
+
+#ps5-content-box p {
+    font-size: 120%;
+}
+
 
 /* Sign up page */
 
@@ -251,7 +297,7 @@ input[type="radio"] {
     width: 500px;
     background-color: rgba(109, 109, 110, 0.8);
     margin-top: 12%;
-    margin-left: 35%;
+    margin-left: 31%;
     padding: 2%;
 }
 
@@ -391,7 +437,7 @@ h3 {
     }
 
     .signup-container {
-        margin-top: -20x;
+        margin-top: -20px;
         margin-left: 20%;
     }
 }
