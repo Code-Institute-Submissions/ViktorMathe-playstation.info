@@ -223,8 +223,10 @@ p span {
 }
 
 .embed-video-ps2{
-    margin-top: -40%;
-    margin-left: 50%;
+    position: relative;
+    float: right;
+    margin-top: -35%;
+    padding-right: 150px;
 }
 
 /* PlayStation 3 page */
@@ -235,10 +237,11 @@ p span {
 }
 
 .embed-video-ps3{
+    position: relative;
+    float: right;
     margin-top: -55%;
-    margin-left: 50%;
+    padding-right: 150px;
 }
-
 /* PlayStation 4 page */
 
 #ps4-page {
