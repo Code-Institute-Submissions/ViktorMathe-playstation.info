@@ -178,7 +178,7 @@ footer {
 
 /* PS1 page */
 
-#ps1-page {
+.ps1-page {
     background: url(../images/ps1-background-op0.5.jpg) no-repeat;
     background-size: cover;
 }
@@ -213,6 +213,10 @@ p span {
     float: right;
     margin-top: -50%;
     padding-right: 150px;
+}
+
+.ps1-page-footer {
+    margin:0;
 }
 
 /* PlayStation 2 page */
@@ -378,10 +382,35 @@ h3 {
         font-size: 110%;
     }
 
+    #ps-content-box,  #ps5-content-box{
+        margin-left: 5%;
+    }
+
+    .embed-video, .embed-video-ps3{
+        margin-top: -60%;
+        padding: 0;
+    }
+
+    .embed-video-ps2{
+        margin-top: -45%;
+        padding: inherit;
+    }
+    
+    .embed-video-ps4, .embed-video-ps5{
+        margin-top: -50%;
+        padding: inherit;
+    }
+
+    .signup-footer{
+        margin-top: 12.5%;
+
+    }
+
     .social-links {
         display: inline-flex;
         float: left;
         margin-left: 40%;
+        margin-top:2%;
     }
 
     .social-links li {
@@ -421,7 +450,7 @@ h3 {
 
     header {
         height: 50px;
-        margin-top: -40px;
+        margin-top: 1%;
     }
 
     h1 {
@@ -440,6 +469,16 @@ h3 {
         font-size: 90%;
     }
 
+    .embed-video{
+        position: absolute;
+        padding-right: 1%;
+
+    }
+
+    .signup-footer{
+        margin-top: 0.5%;
+
+    }
 
     .social-links li {
         padding-left: 20px;
@@ -450,8 +489,8 @@ h3 {
     }
 
     .signup-container {
-        margin-top: -20px;
-        margin-left: 20%;
+        margin-top: 140px;
+        margin-left: 22%;
     }
 }
 
