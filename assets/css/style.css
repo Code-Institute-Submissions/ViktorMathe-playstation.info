@@ -24,6 +24,9 @@ iframe {
 nav {
     letter-spacing: 2px;
     top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #nav-links {
@@ -212,7 +215,7 @@ p span {
     position: relative;
     float: right;
     margin-top: -50%;
-    padding-right: 150px;
+    padding-right: 10px;
 }
 
 .ps1-page-footer {
@@ -230,7 +233,7 @@ p span {
     position: relative;
     float: right;
     margin-top: -35%;
-    padding-right: 150px;
+    padding-right: 10px;
 }
 
 /* PlayStation 3 page */
@@ -244,7 +247,7 @@ p span {
     position: relative;
     float: right;
     margin-top: -55%;
-    padding-right: 150px;
+    padding-right: 10px;
 }
 /* PlayStation 4 page */
 
@@ -257,7 +260,7 @@ p span {
     position: relative;
     float: right;
     margin-top: -45%;
-    padding-right: 150px;
+    padding-right: 10px;
 }
 
 
@@ -272,7 +275,7 @@ p span {
     position: relative;
     float: right;
     margin-top: -45%;
-    padding-right: 150px;
+    padding-right: 10px;
 }
 
 #ps5-content-box {
@@ -342,9 +345,9 @@ h3 {
 }
 
 
-/* Big tablet size screen 1180px or smaller */
+/* Big tablet size screen 1350px or smaller */
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1350px) {
 
     nav {
         letter-spacing: 1px;
@@ -440,12 +443,12 @@ h3 {
     }
 
     #nav-links li {
-        margin-right: 10px;
+        margin-right:10px;
     }
 
     nav i {
         font-size: 120%;
-        padding-right: 1%;
+    
     }
 
     header {
@@ -461,18 +464,26 @@ h3 {
         font-size: 150%;
     }
 
+    .link-blocks {
+        margin-left: 35%;
+    }
+
     .link-blocks a {
-        padding: 50px;
+        padding: 0px;
     }
 
     #instruction {
-        font-size: 90%;
+        font-size: 180%;
     }
 
     .embed-video{
         position: absolute;
         padding-right: 1%;
 
+    }
+
+    footer{
+        margin-top: 0;
     }
 
     .signup-footer{
@@ -494,9 +505,9 @@ h3 {
     }
 }
 
-/* Small size screen 800px or smaller */
+/* Small size screen 850px or smaller */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
 
     nav li {
         margin-top: 0;
@@ -530,11 +541,41 @@ h3 {
     }
 
     .link-blocks {
-        margin-left: 35%;
         padding-top: 30px;
     }
 
     #ps1-img {
         margin-top: 80px;
     }
+
+    iframe{
+        width:390px;
+        height: 250px;
+    }
+}
+
+/* Phone size screen 550px or smaller */
+
+@media screen and (max-width: 550px) {
+
+.link-blocks {
+    margin-left: 25%;
+}
+
+#ps-content-box{
+    margin-top:35%;
+    margin-left: 0;
+    width:390px;
+}
+
+#ps5-content-box{
+    margin-top: 35%;
+    margin-left: 0;
+    width: 390px;
+}
+
+iframe{
+    width:390px;
+    height: 250px;
+}
 }
