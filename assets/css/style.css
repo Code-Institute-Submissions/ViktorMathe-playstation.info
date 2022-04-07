@@ -7,6 +7,10 @@
     font-family: Lato, sans-serif;
 }
 
+body{
+    display: grid;
+}
+
 iframe {
     border: none;
 }
@@ -24,9 +28,6 @@ iframe {
 nav {
     letter-spacing: 2px;
     top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 #nav-links {
@@ -159,7 +160,7 @@ footer {
     height: 80px;
     background-color: #003087;
     opacity: 0.9;
-    position: absolute;
+    clear: both;
     width: 100%;
     margin-top: 20%;
     padding: 0;
@@ -219,7 +220,7 @@ p span {
 }
 
 .ps1-page-footer {
-    margin:0;
+    margin: 0;
 }
 
 /* PlayStation 2 page */
@@ -229,7 +230,7 @@ p span {
     background-size: cover;
 }
 
-.embed-video-ps2{
+.embed-video-ps2 {
     position: relative;
     float: right;
     margin-top: -35%;
@@ -243,12 +244,13 @@ p span {
     background-size: cover;
 }
 
-.embed-video-ps3{
+.embed-video-ps3 {
     position: relative;
     float: right;
     margin-top: -55%;
     padding-right: 10px;
 }
+
 /* PlayStation 4 page */
 
 #ps4-page {
@@ -256,7 +258,7 @@ p span {
     background-size: cover;
 }
 
-.embed-video-ps4{
+.embed-video-ps4 {
     position: relative;
     float: right;
     margin-top: -45%;
@@ -271,7 +273,7 @@ p span {
     background-size: cover;
 }
 
-.embed-video-ps5{
+.embed-video-ps5 {
     position: relative;
     float: right;
     margin-top: -45%;
@@ -385,26 +387,29 @@ h3 {
         font-size: 110%;
     }
 
-    #ps-content-box,  #ps5-content-box{
+    #ps-content-box,
+    #ps5-content-box {
         margin-left: 5%;
     }
 
-    .embed-video, .embed-video-ps3{
+    .embed-video,
+    .embed-video-ps3 {
         margin-top: -60%;
         padding: 0;
     }
 
-    .embed-video-ps2{
+    .embed-video-ps2 {
         margin-top: -45%;
         padding: inherit;
     }
-    
-    .embed-video-ps4, .embed-video-ps5{
+
+    .embed-video-ps4,
+    .embed-video-ps5 {
         margin-top: -50%;
         padding: inherit;
     }
 
-    .signup-footer{
+    .signup-footer {
         margin-top: 12.5%;
 
     }
@@ -413,7 +418,7 @@ h3 {
         display: inline-flex;
         float: left;
         margin-left: 40%;
-        margin-top:2%;
+        margin-top: 2%;
     }
 
     .social-links li {
@@ -437,18 +442,26 @@ h3 {
         background-size: auto;
     }
 
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
 
     #nav-links {
         line-height: 10px;
+        padding: 5px;
     }
 
     #nav-links li {
-        margin-right:10px;
+        margin-bottom: 10px;
     }
 
     nav i {
         font-size: 120%;
-    
+
     }
 
     header {
@@ -476,17 +489,18 @@ h3 {
         font-size: 180%;
     }
 
-    .embed-video{
-        position: absolute;
+    .embed-video {
+        position: relative;
+        float: right;
         padding-right: 1%;
 
     }
 
-    footer{
+    footer {
         margin-top: 0;
     }
 
-    .signup-footer{
+    .signup-footer {
         margin-top: 0.5%;
 
     }
@@ -540,6 +554,10 @@ h3 {
         width: fit-content;
     }
 
+    #ps-content-box {
+        margin-left: 0;
+    }
+
     .link-blocks {
         padding-top: 30px;
     }
@@ -548,8 +566,13 @@ h3 {
         margin-top: 80px;
     }
 
-    iframe{
-        width:390px;
+    #ps5-content-box {
+        margin-left: 0;
+
+    }
+
+    iframe {
+        width: 100%;
         height: 250px;
     }
 }
@@ -558,24 +581,36 @@ h3 {
 
 @media screen and (max-width: 550px) {
 
-.link-blocks {
-    margin-left: 25%;
-}
+    .link-blocks {
+        margin-left: 25%;
+    }
 
-#ps-content-box{
-    margin-top:35%;
-    margin-left: 0;
-    width:390px;
-}
+    #ps-content-box {
+        margin-top: 30%;
+        margin-left: 0;
+        width: 100%;
+    }
 
-#ps5-content-box{
-    margin-top: 35%;
-    margin-left: 0;
-    width: 390px;
-}
+    #ps5-content-box {
+        margin-top: 35%;
+        margin-left: 0;
+        width: 100%;
+    }
 
-iframe{
-    width:390px;
-    height: 250px;
-}
+    iframe {
+        width: 390px;
+        height: 250px;
+    }
+
+    .embed-video,
+    .embed-video-ps2,
+    .embed-video-ps3,
+    .embed-video-ps4,
+    .embed-video-ps5 {
+        margin-top: 0;
+    }
+
+    .mobile-footer {
+        margin-top: 5%;
+    }
 }
