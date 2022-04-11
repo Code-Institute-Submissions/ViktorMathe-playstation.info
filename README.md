@@ -1,108 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Evolution of the PlayStation**
 
-Welcome ViktorMathe,
+On this website you can find interesting information about the playstation consoles,when were they been released and how the sales went back in their time. I put a youtube video on each pages to have a look how was the games looked like on the different consoles. The site is targeting the people who likes these consoles and would like to know about the history of them.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![This is the website](./readme-images/website.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## **Features**
 
-## Gitpod Reminders
+* *Navigation bar*
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    * I made a navigation bar on all the pages just to make it easier to go over different pages without going to the home page.
 
-`python3 -m http.server`
+    * It is full responsive on all the devices and has a logo on the right side.
 
-A blue button should appear to click: _Make Public_,
+![Nav bar](./readme-images/nav-bar.png) 
 
-Another blue button should appear to click: _Open Browser_.
+* *Main section*
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    * At this section you can choose which playstation you would like to read about and for this you just have click on the picture.
 
-A blue button should appear to click: _Make Public_,
+    * This is responsive as well on the big screen is in two rows on the smaller screens is in a column which been advised by my mentor.
 
-Another blue button should appear to click: _Open Browser_.
+    * The background been downloaded from [Pexels free pictures](htttps//pexels.com/) and the small pictures just been downloaded from google.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Main section](./readme-images/main-section.png)
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* *PlayStation Page*
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    * On this page you can read about the actual console which you chose.
 
-------
+    * You can watch a youtube video as well about the consoles gameplay.
 
-## Release History
+![PlayStation Page](./readme-images/ps-page.png) 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* *Sign Up Page*
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    * Here you can sign up for the latest information about the consoles and you can choose which was your favourite console with radio buttons.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Sign Up Page](./readme-images/signup-page.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* *Footer*
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    * On the footer you can go to different social media websites via a link.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Footer](./readme-images/footer.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## **Testing**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+I tested my website on 4 different screen sizes all the time while I was writing it(On two monitors with different resolution, on an Iphone 12 Pro Max and on an Ipad Air 2020). It was quite challenging because on the chrome's developer tools when I choose the same device what I got it was always different on the actual device. I had problem with the navigation bar because it was almost on the middle of the page and i did not know what cause the problem until I realized I have to specify the body element to the value "grid" and the same time the footer went in to the place, with this I saved a loads of unnecessary code in the css file about the positioning. If you changing from different sizes you can see the size of the head line is getting smaller or bigger and the icon as well in the navigation bar, on the index page the chooseable images are going from rows to columns been advised by my mentor, the embedded videos size are changing as well and the position when it getting smaller and smaller and finally the sign up page going to change from a box to a full size page on the mobile phone.When I done the radio buttons on the sign up page I had to get some help from tutor support because I tried everything but I could not figure it out until they showed me the right path when I realized I used the same id in the input form as the id on the index page for the playstation images after all I had to do is change the id names and everything went perfectly.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## **Validator Testing**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* HTML
+    * The message was : **_Document checking completed. No errors or warnings to show._**
+    from the [W3C Validator](https://validator.w3.org/)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+* CSS
+    * The message was : **_Congratulations! No Error Found._** from the [W3C CSS (Jigsaw) Validator](https://jigsaw.w3.org/)
