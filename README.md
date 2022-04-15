@@ -37,6 +37,8 @@ On this website you can find interesting information about the playstation conso
 
 * Here you can sign up for the latest information about the consoles and you can choose which was your favourite console with radio buttons.
 
+* You can find to buttons Sing up! button which is submit your form and the Clear Form button which is clear out what you wrote or marked with the radio buttons.
+
 ![Sign Up Page](./readme-images/signup-page.png)
 
 ### *Footer*
@@ -53,10 +55,10 @@ I tested my website on 4 different screen sizes all the time while I was writing
 
 * HTML
     * The message was : **_Document checking completed. No errors or warnings to show._**
-    from the [W3C Validator](https://validator.w3.org/)
+    from the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviktormathe.github.io%2Fplaystation.info%2Findex.html)
 
 * CSS
-    * The message was : **_Congratulations! No Error Found._** from the [W3C CSS (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+    * The message was : **_Congratulations! No Error Found._** from the [W3C CSS (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fviktormathe.github.io%2Fplaystation.info%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### **Unifixed bugs**
 
@@ -64,11 +66,17 @@ I tested my website on 4 different screen sizes all the time while I was writing
 
 ## **Deplyoment**
 
+* The website been deployed through GitHub-pages:
+    * On the repository site I went to the settings section
+    * In the settings section, clicked on the pages on the left side
+    * Then I choose the "Main" route at the source and I saved it
+    * After the website been refreshed, I got the link.
 
+The live link is here: https://viktormathe.github.io/playstation.info/
 
 ## **Credits**
 
-I have to give credit to my mentor who helped me with the index page to make it reponsive with using flexbox.
+I have to give credit to my mentor who helped me with the index page to make it reponsive with using flexbox and helped me with the sign up page looks to make it better.
 
 ### **Content**
 * The text for the playstation pages (for PS1-2-4) was taken from [Britannica Website](https://www.britannica.com/topic/PlayStation) 
